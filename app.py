@@ -39,7 +39,7 @@ with app.app_context():
     db.create_all()
 
 # Charger le modèle
-MODEL_PATH = r"C:\Users\Francy\Documents\Simplon_DE\cat_and_dog_ko-main\models\model.keras"
+MODEL_PATH = r"C:\Users\Francy\Documents\cat_and_dog_ko-main\models\model.keras"
 
 print(f"Chargement du modèle depuis : {MODEL_PATH}")
 model = load_model(MODEL_PATH)
